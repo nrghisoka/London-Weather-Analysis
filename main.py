@@ -24,9 +24,14 @@ def main():
 
     #  PLOT ONTO LINE GRAPH
     yearlymean_mintemp.plot()
+    plt.show()
     yearlymean_meantemp.plot()
+    plt.show()
     yearlymean_maxtemp.plot()
     plt.show()
+
+    # CONCLUSION 1:
+    # ANALYSIS ON TEMPERATURE DATA SHOWS AVERAGE TEMPERATURES RISING OVER TIME IN LONDON
 
 
 if __name__ == '__main__':
